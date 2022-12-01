@@ -4,7 +4,6 @@ import requests
 import pickle
 import numpy as np
 from PIL import Image
-from sklearn.preprocessing import StandardScaler,LabelEncoder
 
 
 #                       ------------------------Unpacking Models-------------
