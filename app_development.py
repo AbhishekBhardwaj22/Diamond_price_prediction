@@ -4,6 +4,7 @@ import requests
 import pickle
 import numpy as np
 from PIL import Image
+from xgboost import XGBRegressor
 
 
 #                       ------------------------Unpacking Models-------------
