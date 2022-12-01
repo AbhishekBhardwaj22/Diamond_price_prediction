@@ -1,0 +1,12 @@
+price,"price in US Dollars($326-$18,823)"
+The 4'c of Diamond,
+carat,Weight of the diamond(0.2-5.01)
+cut,Quality of Cut(Fair-Ideal)
+color,Diamond Color(d[best]-J[worst])
+clarity,A Measurement of how clear the diamond is(l1[worst]-if[best])
+Dimensions,
+x,length
+y,width
+z,depth
+depth,Total depth percentage
+table,width of top of diamond(43-95)
