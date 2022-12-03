@@ -4,12 +4,10 @@ import requests
 import pickle
 import numpy as np
 from PIL import Image
-from xgboost import XGBRegressor
 
 
 #                       ------------------------Unpacking Models-------------
 xg = pickle.load(open('xg_model.pkl','rb'))
-ada = pickle.load(open('ada.pkl','rb'))
 
 
 #                                       ------ Page Configuration --------
