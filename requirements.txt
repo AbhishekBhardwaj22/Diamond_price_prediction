@@ -4,4 +4,3 @@ requests==2.27.1
 streamlit==1.13.0
 xgboost==1.5.0
 scikit-learn ==1.1.2
-https://github.com/AbhishekBhardwaj22/Diamond_price_prediction/blob/main/config.toml
