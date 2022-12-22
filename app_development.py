@@ -16,17 +16,22 @@ st.set_page_config(page_title="Diamond Price Web App",page_icon= im,layout='wide
 
 
 #                                   ---------- Setting App Layout ----------
-with st.container():
-    left_columns, right_columns = st.columns(2)
-    with left_columns:
-        st.title("Diamond Price Prediction")
-    with right_columns:
-        img = Image.open("bla.jpeg")
-        st.image(img,width=200)
+st.title("Diamond Price Prediction")
+# with st.container():
+#     left_columns, right_columns = st.columns(2)
+#     with left_columns:
+        
+#     with right_columns:
+#         img = Image.open("bla.jpeg")
+#         st.image(img,width=200)
 html_temp = """
-    <div style="background-color:#9400D3 ;padding:10px">
+    <div style="background-color:#9E9E9E ;padding:10px">
     <h2 style="color:#00FFFF;text-align:center;">Price Prediction</h2>
     </div>
+    <body>
+    <font size ="10">
+    </font>
+    </body>
 """
 st.markdown(html_temp, unsafe_allow_html=True)
 
